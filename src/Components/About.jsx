@@ -15,7 +15,7 @@ const About = () => {
   return (
     <div className="max-w-7xl mx-auto my-14">
       <div className="text-6xl font-bold text-center my-6 ">About Me</div>
-      <div className="space-y-12">
+      <div className="space-y-12 m-3">
         <div>
           <h4 className="text-3xl font-semibold mt-4">
             Hi, I am <span className="font-bold">JOY Biswas</span>

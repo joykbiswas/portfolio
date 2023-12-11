@@ -6,9 +6,9 @@ const HomeBanner = () => {
   return (
     <div className="space-y-14">
       <div className=" h-[100vh] w-full border bg-teal-950 text-white">
-        <div className="max-w-7xl mx-auto h-full border border-red-500 flex ">
-          <div className="md:flex w-full gap-9">
-            <div className="flex-1 border border-red-500 my-auto space-y-2">
+        <div className="max-w-7xl mx-auto h-full border border-red-500 flex  ">
+          <div className="md:flex w-full gap-9 ">
+            <div className="flex-1 border m-3 border-red-500 my-auto space-y-2">
               <h4 className="text-3xl font-semibold">Hello, It is Me</h4>
               <h2 className="text-6xl font-bold">Joy Biswas</h2>
               <div className="text-4xl font-semibold">
@@ -50,7 +50,7 @@ const HomeBanner = () => {
                 </a>
               </div>
             </div>
-            <div className="flex-1 text-end border border-green-500 my-auto">
+            <div className="flex-1 text-end m-3 border border-green-500 my-auto">
               <img
                 className=" border-4 rounded-full mx-auto p-3 w-56 md:w-64 lg:w-80"
                 src={img1}
