@@ -21,7 +21,7 @@ const About = () => {
             Hi, I am <span className="font-bold">JOY Biswas</span>
           </h4>
           <p className="pt-2 text-2xl">
-            I am a Frontend developer with 2.5 years of expertise in building
+            I am a Frontend developer with 1.5 years of expertise in building
             industry-level web applications. I am expertise in React and
             Tailwind CSS. Proficent in modern web tecnologies, including React
             for building dynamic user interface, Tailwind CSS for effecient
