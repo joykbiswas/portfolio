@@ -13,7 +13,7 @@ import img12 from "../assets/axios-93a4b665.png";
 
 const About = () => {
   return (
-    <div className="max-w-7xl mx-auto my-14">
+    <div id='about' className="max-w-7xl mx-auto my-14">
       <div className="text-6xl font-bold text-center my-6 ">About Me</div>
       <div className="space-y-12 m-3">
         <div>

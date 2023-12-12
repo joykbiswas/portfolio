@@ -1,7 +1,7 @@
 import Typewriter from "react-ts-typewriter";
 import img1 from "../assets/Untitled__6_-removebg-preview (4).png";
 import { BsFacebook, BsGithub, BsInstagram, BsLinkedin,  } from "react-icons/bs";
-
+import { FaDownload } from "react-icons/fa";
 const HomeBanner = () => {
   return (
     <div className="space-y-14">
@@ -49,13 +49,17 @@ const HomeBanner = () => {
                   <BsGithub />
                 </a>
               </div>
-              <div className="space-x-5">
+              <div className="space-x-5 py-5 ">
                 <button className="btn text-xl bg-gradient-to-r from-indigo-500">View My Works</button>
                 <button className="btn text-xl bg-gradient-to-r from-emerald-500">Contact Me</button>
                 
               </div>
-              <div>
-                <button className="border p-4 text-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">Download Resume</button>
+              <div className="">
+              <a target="_blank"
+                  rel="noopener noreferrer" href="https://drive.google.com/drive/folders/1BgNS5Uc1ZqmslDK3ik8EatpWe-YScSCA?usp=sharing">
+              <button className="border  px-12 py-4 text-xl flex items-center gap-3 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500"><FaDownload /> Download Resume</button>
+              </a>
+                
               </div>
             </div>
             <div className="flex-1 text-end m-3  my-auto">

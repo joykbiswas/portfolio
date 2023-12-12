@@ -18,8 +18,67 @@ const Contact = () => {
             <p>01744293156</p>
           </div>
         </div>
+        {/* form section */}
         <div className="flex-1">
-          <div className=" m-5  p-6">
+        <form className="card-body">
+        <div className="form-control">
+          <label className="label">
+            <span className="label-text">Name</span>
+          </label>
+          <input
+                type="text"
+                placeholder="Name"
+                className=" border-b-2 border-black p-3"
+                required
+              />
+        </div>
+        <div className="form-control">
+          <label className="label">
+            <span className="label-text">Number</span>
+          </label>
+          <input
+                type="text"
+                placeholder="+8801..."
+                className=" border-b-2 border-black p-3"
+                required
+              />
+        </div>
+        <div className="form-control">
+          <label className="label">
+            <span className="label-text">Email</span>
+          </label>
+          <input
+                type="email"
+                placeholder="Email"
+                className=" border-b-2 border-black p-3"
+                required
+              />
+        </div>
+        <div className="form-control">
+          <label className="label">
+            <span className="label-text">Message</span>
+          </label>
+          <input
+                type="message"
+                placeholder="Message"
+                className=" border-b-2 border-black p-3"
+                required
+              />
+         
+        </div>
+        <div className="form-control mt-6">
+          <button className="btn btn-primary">Send Message</button>
+        </div>
+      </form>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Contact;
+/*
+<div className=" m-5  p-6">
             <div className="mb-4 flex-row md:flex">
               
             </div>
@@ -55,10 +114,4 @@ const Contact = () => {
               Send Message
             </button>
           </div>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default Contact;
+*/

@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "images": "https://i.ibb.co/bvFFH9x/survey-scribe.png",
+    "projectTitle": "Survey Scribe",
+    "projectsType": "Online survey",
+    "technology": "HTML, CSS, JAVASCRIPT, REACT JS, AXIOS, JWT",
+    "shortDescription": "SurveyScribe: Your Hub for Insightful Surveys. Admin, Surveyors, Pro-Users, and Users collaborate seamlessly. Earn rewards as a User, with Pro-Users enjoying enhanced opportunities. Join now for a simplified survey experience with rich rewards!",
+    "liveLink": "https://survey-scribe.web.app/",
+    "githubClient": "https://github.com/joykbiswas/survey-scribe-client",
+    "githubServer": "https://github.com/joykbiswas/survey-scribe-server"
+  },
+  {
+    "id": 2,
+    "images": "https://i.ibb.co/3f2NY6P/markethub.png",
+    "projectTitle": "Marketeers Hub",
+    "projectsType": "Project Bid",
+    "technology": "HTML, CSS, JAVASCRIPT, REACT JS, AXIOS, JWT",
+    "shortDescription": "Welcome to MarketerHub: Your Gateway to Seamless Project Bidding! Elevate your project experience with our user-friendly platform. Effortlessly log in, explore diverse projects, and bid with ease. Set your own terms by specifying bid amounts and dates within project ranges. Empower your projects, maximize opportunities, and engage in a dynamic marketplace. Join MarketerHub today and redefine the way you bid and win projects!",
+    "liveLink": "https://joyportfolip.surge.sh/",
+    "githubClient": "https://github.com/joykbiswas/marketeersHub-auth-jwt-client",
+    "githubServer": "https://github.com/joykbiswas/marketeersHub-auth-jwt-server"
+  },
+  {
+    "id":3,
+    "images": "https://i.ibb.co/k4LNp1x/education-care-16fe2-web-app-2.png",
+    "projectTitle": "Education care",
+    "projectsType": "Online course",
+    "technology": "HTML, CSS, JAVASCRIPT, REACT JS, AXIOS, JWT",
+    "shortDescription": "Welcome to EducationCare – Your Gateway to Learning Excellence! Explore a myriad of online courses, choose your path to knowledge, and seamlessly enroll with our user-friendly platform. Effortlessly navigate our payment system to unlock a world of educational opportunities. Join EducationCare today and embark on your journey to enriching education, anytime, anywhere!",
+    "liveLink": "https://education-care-16fe2.web.app/",
+    "githubClient": "https://github.com/joykbiswas/educaiton-care"
+  }
+  
+]
