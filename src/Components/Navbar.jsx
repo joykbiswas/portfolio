@@ -1,10 +1,10 @@
-import { NavLink } from "react-router-dom";
+
 
 const Navbar = () => {
   return (
     <div>
       <div className=" flex justify-center ">
-        <div className="navbar fixed z-10 bg-opacity-30  bg-black text-white max-w-7xl mx-auto">
+        <div className="navbar fixed z-10 bg-opacity-40  bg-black text-white max-w-8xl mx-auto">
           <div className="navbar-start  ">
             <div className="dropdown ">
               <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -29,40 +29,22 @@ const Navbar = () => {
               >
                 <div>
                   <div className="flex flex-col gap-6">
-                    <ul>
+                    <ul className="text-black">
                       <li>
-                        <NavLink
-                          to="/"
-                          className={({ isActive, isPending }) =>
-                            isPending
-                              ? "pending"
-                              : isActive
-                              ? "text-red-500 text-xl underline"
-                              : "text-xl"
-                          }
-                        >
-                          Home
-                        </NavLink>
+                      <a href="/">Home</a>
                       </li>
 
                       <li>
                         <a href="#about">About Me</a>
-                          
-                        
                       </li>
                       <li>
-                        <NavLink
-                          to=""
-                          className={({ isActive, isPending }) =>
-                            isPending
-                              ? "pending"
-                              : isActive
-                              ? "text-red-500 text-xl underline"
-                              : "text-xl"
-                          }
-                        >
-                          My Cart
-                        </NavLink>
+                        <a href="#resume">Resume</a>
+                      </li>
+                      <li>
+                      <a href="#project">Project</a>
+                      </li>
+                      <li>
+                      <a href="#contact">Contact Me</a>
                       </li>
                     </ul>
                   </div>
@@ -79,45 +61,27 @@ const Navbar = () => {
                 <div className=" gap-6">
                   <ul className="flex gap-8">
                     <li>
-                      <NavLink
-                        to="/"
-                        className={({ isActive, isPending }) =>
-                          isPending
-                            ? "pending"
-                            : isActive
-                            ? "text-red-500 text-xl underline"
-                            : "text-xl "
-                        }
-                      >
-                        Home
-                      </NavLink>
+                      <a href="/">Home</a>
                     </li>
 
                     {/* ----end----- */}
                     <li>
-                        <a href="#about">About Me</a>
-                          
-                        
-                      </li>
+                      <a href="#about">About Me</a>
+                    </li>
                     <li>
-                      <NavLink
-                        to="/my-cart"
-                        className={({ isActive, isPending }) =>
-                          isPending
-                            ? "pending"
-                            : isActive
-                            ? "text-red-500 text-xl underline"
-                            : " text-xl "
-                        }
-                      >
-                        My Cart
-                      </NavLink>
+                    <a href="#resume">Resume</a>
+                    </li>
+                    <li>
+                    <a href="#project">Project</a>
+                    </li>
+                    <li>
+                    <a href="#contact">Contact Me</a>
                     </li>
                   </ul>
                 </div>
               </div>
 
-              <div></div>
+              
             </ul>
           </div>
         </div>

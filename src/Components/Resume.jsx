@@ -1,6 +1,6 @@
 const Resume = () => {
   return (
-    <div className="max-w-7xl mx-auto my-14 ">
+    <div id="resume" className="max-w-7xl mx-auto my-14 ">
       <div className="m-4">
         <h1 className="text-4xl font-bold text-center mb-10">
           A Summary of My Resume
