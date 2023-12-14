@@ -1,31 +1,36 @@
-// import "./style.css";
-// import { FaGithub } from "react-icons/fa";
-// import { Link } from "react-router-dom";
+import "./style.css";
 
-// import { useEffect, useState,  } from "react";
+
+import { useEffect, useState,  } from "react";
 // import ProjectsCard from "./ProjectCard";
-import { Link } from "react-router-dom";
-import { FaGithub } from "react-icons/fa";
+// import { Link } from "react-router-dom";
+// import { FaGithub } from "react-icons/fa";
+import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
 
-  // const [projects, setProjects] =useState([])
-  // useEffect(() =>{
-  //   fetch("./../../../public/document.json")
-  //   .then(res =>res.json())
-  //   .then(data=>{
-  //     console.log(data)
-  //     setProjects(data)
-  //   })
+  const [projects, setProjects] =useState([])
+  useEffect(() =>{
+    fetch("./document.json")
+    .then(res =>res.json())
+    .then(data=>{
+      console.log(data)
+      setProjects(data)
+    })
     
-  // },[])
+  },[])
 
   
   return (
     <div id="project" className=" max-w-7xl mx-auto my-14 ">
       <h4 className="text-6xl font-bold text-center py-8">My Project</h4>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 m-4">
-     {/* first project */}
+        {
+          projects.map(project=>(<ProjectCard key={project.id} project={project}></ProjectCard>))
+        }
+
+
+     {/* first project
      <div
         data-aos="zoom-in"
         data-aos-duration="2000"
@@ -82,10 +87,10 @@ const Projects = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* second project */}
-      <div
+      {/* <div
         data-aos="zoom-in"
         data-aos-duration="2000"
         className="mainDiv rounded-lg shadow-md overflow-hidden bg-white/50 dark:bg-my-dark-btn"
@@ -141,9 +146,9 @@ const Projects = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
        {/* third project */}
-       <div
+       {/* <div
         data-aos="zoom-in"
         data-aos-duration="2000"
         className="mainDiv rounded-lg shadow-md overflow-hidden bg-white/50 dark:bg-my-dark-btn"
@@ -174,7 +179,7 @@ const Projects = () => {
           <p className="uppercase dark:text-gray-400">
             
             <span className="font-bold">Technology: </span>
-            HTML, CSS, JAVASCRIPT, REACT JS, AXIOS
+            HTML, CSS, Tailwind css, JAVASCRIPT, REACT JS
           </p>
           <div data-aos="fade-up" className="flex justify-between mt-2 gap-2 ">
             <Link to="https://education-care-16fe2.web.app/">
@@ -190,18 +195,9 @@ const Projects = () => {
                 <FaGithub className="text-3xl"/> Github Client
               </button>
             </Link>
-
-            {/* <Link to={githubServer}>
-             
-              <button className="myBtn px-4 py-2 text-sm  flex items-center gap-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-                <FaGithub className="text-3xl" /> Github Server
-              </button>
-            </Link> */}
           </div>
         </div>
-      </div>
-
-
+      </div> */}
      
       </div>
 
