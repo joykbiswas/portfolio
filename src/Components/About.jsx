@@ -10,10 +10,11 @@ import img9 from "../assets/nodejs.png";
 import img10 from "../assets/express-js-3.png";
 import img11 from "../assets/jwt.png";
 import img12 from "../assets/axios-93a4b665.png";
+// import image from "../assets/backgrond.jpg";
 
 const About = () => {
   return (
-    <div id='about' className="max-w-7xl mx-auto my-14">
+    <div id='about' className="max-w-7xl mx-auto my-14" style={{ backgroundImage: 'url("../assets/backgrond.jpg")' }}>
       <div className="text-6xl font-bold text-center my-6 ">About Me</div>
       <div className="space-y-12 m-3">
         <div>
@@ -22,7 +23,7 @@ const About = () => {
           </h4>
           <p className="pt-2 text-2xl">
             I am a Frontend developer with 1.5 years of expertise in building
-            industry-level web applications. I am expertise in React and
+            industry-level web applications. I am expertise in Rct anead
             Tailwind CSS. Proficent in modern web tecnologies, including React
             for building dynamic user interface, Tailwind CSS for effecient
             styling, and Firebase for seamless backend integration. Experienced
