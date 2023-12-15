@@ -23,7 +23,7 @@ const About = () => {
           </h4>
           <p className="pt-2 text-2xl">
             I am a Frontend developer with 1.5 years of expertise in building
-            industry-level web applications. I am expertise in Rct anead
+            industry-level web applications. I am expertise in React and
             Tailwind CSS. Proficent in modern web tecnologies, including React
             for building dynamic user interface, Tailwind CSS for effecient
             styling, and Firebase for seamless backend integration. Experienced

@@ -16,9 +16,9 @@ const Contact = () => {
     if(contact){
       Swal.fire({
         title: 'success!',
-        text: 'user added coffee successfully',
+        text: 'Your message successfully send',
         icon: 'success',
-        confirmButtonText: 'Add'
+        confirmButtonText: 'Conform'
       })
     }
 
