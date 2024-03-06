@@ -1,5 +1,5 @@
 import Typewriter from "react-ts-typewriter";
-import img2 from "../assets/1702316735515.jpg";
+import img2 from "../assets/joy.png";
 import { BsFacebook, BsGithub, BsInstagram, BsLinkedin,  } from "react-icons/bs";
 import { FaDownload } from "react-icons/fa";
 const HomeBanner = () => {

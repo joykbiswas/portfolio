@@ -41,14 +41,15 @@ const Resume = () => {
           <h3 className="text-3xl font-semibold">My Skills</h3>
           <div className=" mt-8">
             <div className="flex justify-between text-xl">
-              <h1>HTML/CSS</h1>
-              <p>85%</p>
+              <h1>Next.js</h1>
+              <p>80%</p>
             </div>
             <progress
               className="progress progress-warning "
-              value="85"
+              value="80"
               max="100"
             ></progress>
+            
             <div className="flex justify-between text-xl">
               <h1>React JS</h1>
               <p>85%</p>
@@ -74,6 +75,15 @@ const Resume = () => {
             <progress
               className="progress progress-warning "
               value="80"
+              max="100"
+            ></progress>
+            <div className="flex justify-between text-xl">
+              <h1>HTML/CSS</h1>
+              <p>85%</p>
+            </div>
+            <progress
+              className="progress progress-warning "
+              value="85"
               max="100"
             ></progress>
           </div>

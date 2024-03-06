@@ -10,7 +10,7 @@ import img9 from "../assets/nodejs.png";
 import img10 from "../assets/express-js-3.png";
 import img11 from "../assets/jwt.png";
 import img12 from "../assets/axios-93a4b665.png";
-// import image from "../assets/backgrond.jpg";
+import next from "../assets/nextjs.png";
 
 const About = () => {
   return (
@@ -23,7 +23,7 @@ const About = () => {
           </h4>
           <p className="pt-2 text-2xl">
             I am a Frontend developer with 1.5 years of expertise in building
-            industry-level web applications. I am expertise in React and
+            industry-level web applications. I am expertise in React Framework Next.js and
             Tailwind CSS. Proficent in modern web tecnologies, including React
             for building dynamic user interface, Tailwind CSS for effecient
             styling, and Firebase for seamless backend integration. Experienced
@@ -65,6 +65,7 @@ const About = () => {
             <img className="w-16" src={img4} alt="" />
             <img className="w-16" src={img5} alt="" />
             <img className="w-16" src={img6} alt="" />
+            <img className="w-28" src={next} alt="" />
             <img className="w-16" src={img7} alt="" />
             <img className="w-16" src={img8} alt="" />
           </div>
