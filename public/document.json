@@ -1,6 +1,16 @@
 [
   {
-    "id": 1,
+    "id":1,
+    "images": "https://i.ibb.co/HdWyk7y/localhost-3000-1.png",
+    "projectTitle": "ResuMegnet",
+    "projectsType": "Resume, cv make",
+    "technology": "HTML, CSS, JAVASCRIPT, REACT JS, Next.js, Mongodb, Express.js, AXIOS, JWT",
+    "shortDescription": "Resumegnent simplifies resume, CV, and cover letter creation with a user-friendly dashboard. New users are guided step-by-step, while returning users can easily update templates. Shareable templates facilitate collaboration, and features like profiles, quizzes, and an AI interview question generator enhance job search preparation. Integrated Stripe payment enables seamless access to premium features. Security is ensured through JWT token verification. Resumegnent streamlines the job application process, empowering users to craft compelling narratives for career success.!",
+    "liveLink": "https://education-care-16fe2.web.app/",
+    "githubClient": "https://github.com/joykbiswas/educaiton-care"
+  },
+  {
+    "id": 2,
     "images": "https://i.ibb.co/bvFFH9x/survey-scribe.png",
     "projectTitle": "Survey Scribe",
     "projectsType": "Online survey",
@@ -9,17 +19,6 @@
     "liveLink": "https://survey-scribe.web.app/",
     "githubClient": "https://github.com/joykbiswas/survey-scribe-client",
     "githubServer": "https://github.com/joykbiswas/survey-scribe-server"
-  },
-  {
-    "id": 2,
-    "images": "https://i.ibb.co/3f2NY6P/markethub.png",
-    "projectTitle": "Marketeers Hub",
-    "projectsType": "Project Bid",
-    "technology": "HTML, CSS, JAVASCRIPT, REACT JS, AXIOS, JWT",
-    "shortDescription": "Welcome to MarketerHub: Your Gateway to Seamless Project Bidding! Elevate your project experience with our user-friendly platform. Effortlessly log in, explore diverse projects, and bid with ease. Set your own terms by specifying bid amounts and dates within project ranges. Empower your projects, maximize opportunities, and engage in a dynamic marketplace. Join MarketerHub today and redefine the way you bid and win projects!",
-    "liveLink": "https://joyportfolip.surge.sh/",
-    "githubClient": "https://github.com/joykbiswas/marketeersHub-auth-jwt-client",
-    "githubServer": "https://github.com/joykbiswas/marketeersHub-auth-jwt-server"
   },
   {
     "id":3,
@@ -32,14 +31,14 @@
     "githubClient": "https://github.com/joykbiswas/educaiton-care"
   },
   {
-    "id":4,
-    "images": "https://i.ibb.co/HdWyk7y/localhost-3000-1.png",
-    "projectTitle": "ResuMegnet",
-    "projectsType": "Resume, cv make",
-    "technology": "HTML, CSS, JAVASCRIPT, REACT JS, Next.js, Mongodb, Express.js, AXIOS, JWT",
-    "shortDescription": "Resumegnent simplifies resume, CV, and cover letter creation with a user-friendly dashboard. New users are guided step-by-step, while returning users can easily update templates. Shareable templates facilitate collaboration, and features like profiles, quizzes, and an AI interview question generator enhance job search preparation. Integrated Stripe payment enables seamless access to premium features. Security is ensured through JWT token verification. Resumegnent streamlines the job application process, empowering users to craft compelling narratives for career success.!",
-    "liveLink": "https://education-care-16fe2.web.app/",
-    "githubClient": "https://github.com/joykbiswas/educaiton-care"
+    "id": 4,
+    "images": "https://i.ibb.co/3f2NY6P/markethub.png",
+    "projectTitle": "Marketeers Hub",
+    "projectsType": "Project Bid",
+    "technology": "HTML, CSS, JAVASCRIPT, REACT JS, AXIOS, JWT",
+    "shortDescription": "Welcome to MarketerHub: Your Gateway to Seamless Project Bidding! Elevate your project experience with our user-friendly platform. Effortlessly log in, explore diverse projects, and bid with ease. Set your own terms by specifying bid amounts and dates within project ranges. Empower your projects, maximize opportunities, and engage in a dynamic marketplace. Join MarketerHub today and redefine the way you bid and win projects!",
+    "liveLink": "https://joyportfolip.surge.sh/",
+    "githubClient": "https://github.com/joykbiswas/marketeersHub-auth-jwt-client",
+    "githubServer": "https://github.com/joykbiswas/marketeersHub-auth-jwt-server"
   }
-  
 ]
