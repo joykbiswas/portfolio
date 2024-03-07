@@ -6,8 +6,9 @@
     "projectsType": "Resume, cv make",
     "technology": "HTML, CSS, JAVASCRIPT, REACT JS, Next.js, Mongodb, Express.js, AXIOS, JWT",
     "shortDescription": "Resumegnent simplifies resume, CV, and cover letter creation with a user-friendly dashboard. New users are guided step-by-step, while returning users can easily update templates. Shareable templates facilitate collaboration, and features like profiles, quizzes, and an AI interview question generator enhance job search preparation. Integrated Stripe payment enables seamless access to premium features. Security is ensured through JWT token verification. Resumegnent streamlines the job application process, empowering users to craft compelling narratives for career success.!",
-    "liveLink": "https://education-care-16fe2.web.app/",
-    "githubClient": "https://github.com/joykbiswas/educaiton-care"
+    "liveLink": "https://resu-magnet-frontend.vercel.app/",
+    "githubClient": "https://github.com/teamkingsman/resuMagnet-frontend",
+    "githubServer": "https://github.com/teamkingsman/resuMagnet-backend/"
   },
   {
     "id": 2,
