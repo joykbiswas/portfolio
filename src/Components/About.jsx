@@ -39,19 +39,19 @@ const About = () => {
         <div className="flex flex-wrap justify-between space-y-4">
           <div className="text-2xl">
             <h5 className="text-slate-600">Name:</h5>
-            <p className="font-semibold">Joy Kumar Biswas</p>
+            <p className="font-semibold max-md:text-xl">Joy Kumar Biswas</p>
           </div>
           <div className="text-2xl">
             <h5 className="text-slate-600">Email:</h5>
-            <p className="font-semibold">joykumarbiswas100@gmail.com</p>
+            <p className="font-semibold max-md:text-xl">joykumarbiswas100@gmail.com</p>
           </div>
           <div className="text-2xl">
             <h5 className="text-slate-600">Date of birth:</h5>
-            <p className="font-semibold">24 july, 2000</p>
+            <p className="font-semibold max-md:text-xl">24 july, 2000</p>
           </div>
           <div className="text-2xl">
             <h5 className="text-slate-600">From:</h5>
-            <p className="font-semibold">Satkhira, Khulna, Bangladesh</p>
+            <p className="font-semibold max-md:text-xl">Satkhira, Khulna, Bangladesh</p>
           </div>
         </div>
 
