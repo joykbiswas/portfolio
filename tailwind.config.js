@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'btn-grad': 'linear-gradient(to right, #ff0f7b, #f89b29)',
+      },
+    },
   },
   plugins: [require("daisyui")],
 }

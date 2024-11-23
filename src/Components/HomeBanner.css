@@ -4,7 +4,7 @@
 .scroll-down{
  height: 50px;
  width: 30px;
- border: 2px solid black;
+ border: 2px solid white;
  left: 50%;
  bottom: 30px;
  border-radius: 50px;
@@ -42,3 +42,29 @@
         top:90%;
     }
 }
+
+.imgBg{
+    position: relative;
+    border-radius: 50px;
+    /* border: none;
+    outline: none; 
+    color: #fff; */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.5s;
+  }
+  .imgBg:first-child{
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+  }
+  .imgBg:last-child{
+    background: linear-gradient(90deg, #decdd2, #f5ce62, #e43603, #03a9f4,);
+    background-size: 400%;
+  }
+  
+  .imgBg{
+    z-index: 1;
+    animation: glow 8s linear infinite;
+  }
+  

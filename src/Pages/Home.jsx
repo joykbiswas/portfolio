@@ -6,6 +6,8 @@ import Navbar from "../Components/Navbar";
 import Projects from "../Components/Projects/Projects";
 import Resume from "../Components/Resume";
 
+import ParticleBg from "../Components/ParticleBg/ParticleBg";
+import JumpButton from "../Components/Jump/JumpButton";
 const Home = () => {
   return (
     <div>
@@ -16,6 +18,8 @@ const Home = () => {
       <Projects></Projects>
       <Contact></Contact>
       <Footer></Footer>
+      <ParticleBg />
+      <JumpButton />
     </div>
   );
 };

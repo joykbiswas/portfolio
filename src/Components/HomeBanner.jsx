@@ -1,5 +1,6 @@
 import Typewriter from "react-ts-typewriter";
 import img2 from "../assets/joy.png";
+import { CgMail } from "react-icons/cg";
 import { BsFacebook, BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
 import { FaDownload } from "react-icons/fa";
 import "./HomeBanner.css";
@@ -13,8 +14,8 @@ const HomeBanner = () => {
               <h4 className="text-2xl md:text-3xl font-semibold">
                 Hello, It is Me
               </h4>
-              <h2 className="text-3xl md:text-4xl lg:text-6xl font-bold text-emerald-400">
-                Joy Biswas
+              <h2 className="text-3xl md:text-4xl lg:text-6xl font-bold text-indigo-600">
+                Joy Kumar Biswas
               </h2>
               <div className="text-2xl  lg:text-4xl font-semibold">
                 
@@ -34,7 +35,7 @@ const HomeBanner = () => {
                   <BsFacebook className="hover:text-green-300 hover:bg-red-500 rounded-full hover:  hover:rounded-full" />
                 </a>
                 <a
-                  href="https://www.instagram.com"
+                  href="https://www.instagram.com/jkumarbiswas"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -54,12 +55,14 @@ const HomeBanner = () => {
                 >
                   <BsGithub className="hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:rounded-full" />
                 </a>
+                <a
+                  href="mailto:joykumarbiswas100@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <CgMail className="text-3xl hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:rounded-full" />
+                </a>
               </div>
-              {/* <div className="space-x-5 py-5 ">
-                <button className="btn text-xl bg-gradient-to-r from-indigo-500">View My Works</button>
-                <button className="btn text-xl bg-gradient-to-r from-emerald-500">Contact Me</button>
-                
-              </div> */}
               <div className=" max-md:pb-[84px]">
                 <a
                   target="_blank"
@@ -75,7 +78,7 @@ const HomeBanner = () => {
 
             <div className="flex-1 text-end m-3 my-auto">
               <img
-                className=" border-4 rounded-full mx-auto p-3 w-48 md:w-72 lg:w-80"
+                className="imgBg mx-auto p-5 w-48 md:w-72 lg:w-80"
                 src={img2}
                 alt=""
               />

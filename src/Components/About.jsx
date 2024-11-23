@@ -14,24 +14,34 @@ import next from "../assets/nextjs.png";
 
 const About = () => {
   return (
-    <div id='about' className="max-w-7xl mx-auto my-14" style={{ backgroundImage: 'url("../assets/backgrond.jpg")' }}>
+    <div
+      id="about"
+      className="max-w-7xl mx-auto my-14"
+      style={{ backgroundImage: 'url("../assets/backgrond.jpg")' }}
+    >
       <div className="text-6xl font-bold text-center my-6 ">About Me</div>
       <div className="space-y-12 m-3">
         <div>
           <h4 className="text-3xl font-semibold mt-4">
-            Hi, I am <span className="font-bold">JOY Biswas</span>
+            Hi, I am <span className="font-bold">Joy Kumar Biswas</span>
           </h4>
           <p className="pt-2 text-2xl">
-            I am a Frontend developer with 1.5 years of expertise in building
-            industry-level web applications. I am expertise in React Framework Next.js and
-            Tailwind CSS. Proficent in modern web tecnologies, including React
-            for building dynamic user interface, Tailwind CSS for effecient
-            styling, and Firebase for seamless backend integration. Experienced
-            in working with databases such as MongoDB and server-side
-            technologies like Express JS. I cultivated through hands on
-            experience with Figma.Eager to contribute my skills to innovative
-            project. Dedicated to delivering polished, responsive designs with a
-            focus on user experience.
+            I am Joy Kumar Biswas, a skilled MERN Stack Developer with over two
+            years of experience in crafting dynamic, responsive, and
+            user-focused web applications. Proficient in HTML, CSS, Tailwind
+            CSS, JavaScript, React.js, Next.js, Node.js, Express.js, and
+            MongoDB, I excel in building scalable solutions with clean code and
+            optimized performance. I also have professional experience at The
+            Tann Mann Foundation, where I further honed my technical and
+            collaborative skills.
+            <br />
+            In my journey as a developer, I have actively engaged in internships
+            and collaborative projects. Additionally, I’ve contributed
+            significantly to projects involving payment systems, dynamic
+            dashboards, and collaborative tools. sharpening my ability to adapt
+            and excel in diverse team environments. Dedicated to continuous
+            learning, I strive to deliver innovative and impactful solutions in
+            every project.
           </p>
         </div>
 
@@ -43,7 +53,9 @@ const About = () => {
           </div>
           <div className="text-2xl">
             <h5 className="text-slate-600">Email:</h5>
-            <p className="font-semibold max-md:text-xl">joykumarbiswas100@gmail.com</p>
+            <p className="font-semibold max-md:text-xl">
+              joykumarbiswas100@gmail.com
+            </p>
           </div>
           <div className="text-2xl">
             <h5 className="text-slate-600">Date of birth:</h5>
@@ -51,7 +63,9 @@ const About = () => {
           </div>
           <div className="text-2xl">
             <h5 className="text-slate-600">From:</h5>
-            <p className="font-semibold max-md:text-xl">Satkhira, Khulna, Bangladesh</p>
+            <p className="font-semibold max-md:text-xl">
+              Satkhira, Khulna, Bangladesh
+            </p>
           </div>
         </div>
 
