@@ -45,7 +45,7 @@ const Resume = () => {
         
       </div>
       {/* my skills */}
-      <div className="my-14 md:flex m-2 gap-16">
+      {/* <div className="my-14 md:flex m-2 gap-16">
         <div className="flex-1">
           <h3 className="text-3xl font-semibold">My Skills</h3>
           <div className=" mt-8">
@@ -120,7 +120,7 @@ const Resume = () => {
             ></progress>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
     </div>
   );

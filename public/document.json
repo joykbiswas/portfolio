@@ -22,7 +22,18 @@
     "githubServer": "https://github.com/joykbiswas/survey-scribe-server"
   },
   {
-    "id":3,
+    "id": 3,
+    "images": "https://i.ibb.co.com/zStDv2J/bistro-boss-menu-list.png",
+    "projectTitle": "Bistro Boss ",
+    "projectsType": "Food store",
+    "technology": "REACT JS, HTML, CSS, Stripe, JAVASCRIPT, , AXIOS, JWT , ",
+    "shortDescription": "Bistro Boss is a dynamic food store application built with the MERN stack. It offers an intuitive interface for users to browse and order food, save items to their cart for later, and securely complete payments using the Stripe payment gateway !",
+    "liveLink": "https://bistro-boss-2d5b6.web.app/",
+    "githubClient": "https://github.com/joykbiswas/bistro-boss-restaurent-client",
+    "githubServer": "https://github.com/joykbiswas/bistro-boss-restaurent-server"
+  },
+  {
+    "id":4,
     "images": "https://i.ibb.co/k4LNp1x/education-care-16fe2-web-app-2.png",
     "projectTitle": "Education care",
     "projectsType": "Online course",
@@ -32,7 +43,7 @@
     "githubClient": "https://github.com/joykbiswas/educaiton-care"
   },
   {
-    "id": 4,
+    "id": 5,
     "images": "https://i.ibb.co/3f2NY6P/markethub.png",
     "projectTitle": "Marketeers Hub",
     "projectsType": "Project Bid",
