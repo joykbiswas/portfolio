@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'btn-grad': 'linear-gradient(to right, #ff0f7b, #f89b29)',
+        'btn-grad': 'linear-gradient(to right, #022f2e, #0b6ba2)',
       },
     },
   },
