@@ -14,7 +14,6 @@ const Projects = () => {
     fetch("./document.json")
     .then(res =>res.json())
     .then(data=>{
-      console.log(data)
       setProjects(data)
     })
     

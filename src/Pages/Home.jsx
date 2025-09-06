@@ -6,7 +6,6 @@ import Navbar from "../Components/Navbar";
 import Projects from "../Components/Projects/Projects";
 import Resume from "../Components/Resume";
 import "./homeStyle.css"
-import ParticleBg from "../Components/ParticleBg/ParticleBg";
 import JumpButton from "../Components/Jump/JumpButton";
 import ParticlesComponent from "../Components/paticles-animation/ParticlesComponent";
 const Home = () => {
@@ -21,7 +20,6 @@ const Home = () => {
       <Contact></Contact>
       <Footer></Footer>
       <ParticlesComponent />
-      {/* <ParticleBg /> */}
       <JumpButton />
       
     </div>

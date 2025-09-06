@@ -1,4 +1,6 @@
+
 import Swal from "sweetalert2";
+import { FaUser, FaPhone, FaEnvelope, FaComment, FaPaperPlane } from "react-icons/fa";
 
 const Contact = () => {
   const handleSubmit = (e) => {
@@ -14,139 +16,99 @@ const Contact = () => {
 
     if (contact) {
       Swal.fire({
-        title: "Success!",
-        text: "Your message has been successfully sent.",
+        title: "Message Sent!",
+        text: "Thank you for reaching out. I will get back to you as soon as possible.",
         icon: "success",
-        confirmButtonText: "Okay",
+        confirmButtonText: "Great!",
+        background: "#1f2937",
+        color: "#ffffff",
+        confirmButtonColor: "#3b82f6",
       });
       form.reset();
     }
   };
 
   return (
-    <section
-      
-      id="contact"
-      className="py-20 text-white "
-    >
-      
-      
+    <section id="contact" className="py-20 text-white">
       <div className="container mx-auto px-6 max-w-7xl">
         <h2 className="text-5xl md:text-6xl font-extrabold text-center mb-16 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-          Contact Me
+          Get in Touch
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
-          {/* Contact Info */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
           <div className="space-y-8">
-            <h3 className="text-4xl font-bold">Let's get in touch</h3>
+            <h3 className="text-4xl font-bold">Let's Connect</h3>
             <p className="text-lg leading-relaxed">
-              I enjoy discussing new projects and design challenges. Please share
-              as much info as possible so we can get the most out of our first
-              catch-up.
+              I'm currently available to take on new projects. If you have a project in mind or just want to say hello, feel free to send me a message.
             </p>
-            <div className="space-y-4 text-xl">
+            <div className="space-y-6 text-xl">
               <div className="flex items-center gap-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-7 w-7 text-blue-400"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                >
-                  <path d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm0 2c-3.31 0-6 2.69-6 6h12c0-3.31-2.69-6-6-6Z" />
-                </svg>
-                <p>Khulna shador, Khulna, Bangladesh</p>
+                <FaUser className="text-blue-400" />
+                <p>Joy Kumar Biswas</p>
               </div>
               <div className="flex items-center gap-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-7 w-7 text-blue-400"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                >
-                  <path d="M2.003 5.884 10 9.882l8-3.998A3.001 3.001 0 0 0 15 3H7a3 3 0 0 0-4.997 2.884Z" />
-                  <path d="m2 7.516 6.345 3.172c1.782.891 3.655.891 5.437 0L20 7.516v8.421c0 2.228-1.77 4.025-3.987 4.063H5.987A4.004 4.004 0 0 1 2 15.937V7.516Z" />
-                </svg>
-                <a
-                  href="mailto:joykumarbiswas@gmail.com"
-                  className="hover:underline"
-                >
-                  joykumarbiswas@gmail.com
-                </a>
-              </div>
-              <div className="flex items-center gap-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-7 w-7 text-blue-400"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                >
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 14H9v-2h4v2zm2-4H9V8h6v4z" />
-                </svg>
+                <FaPhone className="text-blue-400" />
                 <p>+8801744293156</p>
+              </div>
+              <div className="flex items-center gap-4">
+                <FaEnvelope className="text-blue-400" />
+                <a href="mailto:joykumarbiswas100@gmail.com" className="hover:underline">
+                  joykumarbiswas100@gmail.com
+                </a>
               </div>
             </div>
           </div>
 
-          {/* Contact Form */}
           <div className="bg-gray-800 p-8 rounded-lg shadow-xl">
             <form onSubmit={handleSubmit} className="space-y-6">
-              <div>
-                <label htmlFor="name" className="block text-sm font-medium mb-1">
-                  Name
-                </label>
+              <div className="relative">
+                <FaUser className="absolute top-1/2 left-4 transform -translate-y-1/2 text-gray-400" />
                 <input
                   type="text"
                   id="name"
                   name="name"
                   placeholder="Your Name"
-                  className="w-full p-3 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:border-blue-500 transition-colors"
+                  className="w-full p-3 pl-12 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
                   required
                 />
               </div>
-              <div>
-                <label htmlFor="number" className="block text-sm font-medium mb-1">
-                  Number
-                </label>
+              <div className="relative">
+                <FaPhone className="absolute top-1/2 left-4 transform -translate-y-1/2 text-gray-400" />
                 <input
                   type="text"
                   id="number"
                   name="number"
-                  placeholder="+8801..."
-                  className="w-full p-3 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:border-blue-500 transition-colors"
+                  placeholder="Your Number"
+                  className="w-full p-3 pl-12 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
                   required
                 />
               </div>
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium mb-1">
-                  Email
-                </label>
+              <div className="relative">
+                <FaEnvelope className="absolute top-1/2 left-4 transform -translate-y-1/2 text-gray-400" />
                 <input
                   type="email"
                   id="email"
                   name="email"
                   placeholder="Your Email"
-                  className="w-full p-3 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:border-blue-500 transition-colors"
+                  className="w-full p-3 pl-12 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
                   required
                 />
               </div>
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium mb-1">
-                  Message
-                </label>
+              <div className="relative">
+                <FaComment className="absolute top-6 left-4 text-gray-400" />
                 <textarea
                   id="message"
                   name="message"
                   placeholder="Your Message"
-                  rows="4"
-                  className="w-full p-3 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:border-blue-500 transition-colors"
+                  rows="5"
+                  className="w-full p-3 pl-12 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
                   required
                 ></textarea>
               </div>
               <button
                 type="submit"
-                className="w-full p-4 mt-4 font-bold rounded-md bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 transition-all duration-300"
+                className="w-full p-4 mt-4 font-bold rounded-md bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3"
               >
-                Send Message
+                <FaPaperPlane /> Send Message
               </button>
             </form>
           </div>

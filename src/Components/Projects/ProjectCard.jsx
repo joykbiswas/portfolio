@@ -13,7 +13,7 @@ const ProjectCard = ({ project }) => {
     githubServer,
     githubClient,
   } = project;
-  console.log(project);
+  
   return (
     <div className="group">
       <div className="card_glass mainDiv rounded-2xl shadow-2xl overflow-hidden bg-gradient-to-br from-gray-800/30 to-gray-900/30 backdrop-blur-sm border border-gray-700/50 hover:border-blue-500/50 transition-all duration-500 hover:shadow-blue-500/25">
