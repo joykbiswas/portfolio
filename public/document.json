@@ -1,5 +1,16 @@
 [
   {
+    "id":6,
+    "images": "https://i.ibb.co.com/9mpf54D9/cupcake-two-vercel-app.png",
+    "projectTitle": "ResuMegnet",
+    "projectsType": "Resume, cv make",
+    "technology": "HTML, CSS, JAVASCRIPT, REACT JS, Mongodb, Express.js, Stripe, Cors, AXIOS, JWT",
+    "shortDescription": "Welcome to our online cake shop! Customers can explore a wide variety of delicious cakes, place orders easily, and pay securely using Stripe. The platform supports both user and admin logins, allowing customers to manage their orders effortlessly, while admins can manage inventory, track sales, and update cake listings in real time. Enjoy a seamless and delightful cake-buying experience from the comfort of your home!",
+    "liveLink": "https://cupcake-two.vercel.app/",
+    "githubClient": "https://github.com/joykbiswas/cupcake",
+    "githubServer": "https://github.com/joykbiswas/cupcake-backend"
+  },
+  {
     "id":1,
     "images": "https://i.ibb.co/HdWyk7y/localhost-3000-1.png",
     "projectTitle": "ResuMegnet",
