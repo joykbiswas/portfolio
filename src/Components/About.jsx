@@ -19,7 +19,6 @@ const About = () => {
     <div
       id="about"
       className="max-w-7xl mx-auto my-14"
-      style={{ backgroundImage: 'url("../assets/backgrond.jpg")' }}
     >
       <div className="text-6xl max-sm:text-4xl font-bold text-center my-6 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent animate-pulse">
         About Me
