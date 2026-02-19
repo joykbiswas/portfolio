@@ -1,18 +1,22 @@
-import img1 from "../assets/html5.png";
-import img2 from "../assets/css-logo.png";
-import img3 from "../assets/es6s.png";
-import img4 from "../assets/tailwindcss.png";
-import img5 from "../assets/JavaScript-logo.png";
-import img6 from "../assets/react.png";
-import img7 from "../assets/firebase.png";
-import img88 from "../assets/mongodbb.png";
+import html5 from "../assets/html5.png";
+import css from "../assets/css-logo.png";
+import es6s from "../assets/es6s.png";
+import tailwindcss from "../assets/tailwindcss.png";
+import JavaScript from "../assets/JavaScript-logo.png";
+import react from "../assets/react.png";
+import firebase from "../assets/firebase.png";
+import mongodbb from "../assets/mongodbb.png";
 import img9 from "../assets/Node.png";
-import img10 from "../assets/express-.png";
-import img11 from "../assets/jwt-token.png";
+import express from "../assets/express-.png";
+import jwt from "../assets/jwt-token.png";
 import next from "../assets/next-js.png";
 import postMan from "../assets/postman.png";
 import daisy from "../assets/daisy.png";
 import github from "../assets/github.png";
+import postgresql from "../assets/postgresql.jpg";
+import TypeScript from "../assets/TypeScript-Logo.jpg";
+import shadcn from "../assets/shadcn-ui.png";
+import prismaHD from "../assets/prismaHD.png";
 
 const About = () => {
   return (
@@ -32,7 +36,7 @@ const About = () => {
             I am Joy Kumar Biswas, a skilled <span className="text-blue-400 font-semibold">MERN Stack Developer</span> with over two
             years of experience in crafting dynamic, responsive, and
             user-focused web applications. Proficient in <span className="text-green-400 font-semibold">HTML, CSS, Tailwind
-            CSS, JavaScript, Typescript, React.js, Next.js, RTK Query, Node.js, Express.js, and
+            CSS, JavaScript, Typescript, React.js, Next.js, RTK Query, Node.js, Express.js, Prisma ORM, Postgresql and
             MongoDB</span>, I excel in building scalable solutions with clean code and
             optimized performance. I also have professional experience at <span className="text-purple-400 font-semibold">The
             Codxign, Tann Mann Foundation, Flex Soft </span>, where I further honed my technical and
@@ -97,48 +101,67 @@ const About = () => {
             Experience
           </h3>
           <div className="flex justify-center flex-wrap gap-6 mt-8">
-            <div className="w-56 max-sm:w-40 hover:scale-110 text-center space-y-3 bg-gradient-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-sm rounded-xl border border-blue-400/30 hover:border-blue-400/60 shadow-lg hover:shadow-blue-500/25 p-6 transform transition-all duration-300 hover:shadow-2xl">
-              <img className="w-16 mx-auto" src={img6} alt="" />
-              <h2 className="text-2xl max-sm:text-xl text-white font-bold">React</h2>
-            </div>
             <div className="w-56 max-sm:w-40 hover:scale-110 text-center space-y-3 bg-gradient-to-br from-gray-500/20 to-slate-500/20 backdrop-blur-sm rounded-xl border border-gray-400/30 hover:border-gray-400/60 shadow-lg hover:shadow-gray-500/25 p-6 transform transition-all duration-300 hover:shadow-2xl">
               <img className="w-16 mx-auto" src={next} alt="" />
               <h2 className="text-2xl max-sm:text-xl text-white font-bold">Next.js</h2>
             </div>
-            <div className="w-56 max-sm:w-40 hover:scale-110 text-center space-y-3 bg-gradient-to-br from-yellow-500/20 to-orange-500/20 backdrop-blur-sm rounded-xl border border-yellow-400/30 hover:border-yellow-400/60 shadow-lg hover:shadow-yellow-500/25 p-6 transform transition-all duration-300 hover:shadow-2xl">
-              <img className="w-16 mx-auto" src={img5} alt="" />
-              <h2 className="text-2xl max-sm:text-xl text-white font-bold">Javascript</h2>
+            <div className="w-56 max-sm:w-40 hover:scale-110 text-center space-y-3 bg-gradient-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-sm rounded-xl border border-blue-400/30 hover:border-blue-400/60 shadow-lg hover:shadow-blue-500/25 p-6 transform transition-all duration-300 hover:shadow-2xl">
+              <img className="w-16 mx-auto" src={react} alt="" />
+              <h2 className="text-2xl max-sm:text-xl text-white font-bold">React</h2>
             </div>
-            <div className="w-56 max-sm:w-40 hover:scale-110 text-center space-y-3 bg-gradient-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-sm rounded-xl border border-green-400/30 hover:border-green-400/60 shadow-lg hover:shadow-green-500/25 p-6 transform transition-all duration-300 hover:shadow-2xl">
-              <img className="w-16 mx-auto" src={img88} alt="" />
-              <h2 className="text-2xl max-sm:text-xl text-white font-bold">MongoDB</h2>
+            
+            <div className="w-56 max-sm:w-40 hover:scale-110 text-center space-y-3 bg-gradient-to-br from-gray-500/20 to-slate-500/20 backdrop-blur-sm rounded-xl border border-gray-400/30 hover:border-gray-400/60 shadow-lg hover:shadow-gray-500/25 p-6 transform transition-all duration-300 hover:shadow-2xl">
+              <img className="w-16 mx-auto" src={TypeScript} alt="" />
+              <h2 className="text-2xl max-sm:text-xl text-white font-bold">Typescript</h2>
+            </div>
+            <div className="w-56 max-sm:w-40 hover:scale-110 text-center space-y-3 bg-gradient-to-br from-yellow-500/20 to-orange-500/20 backdrop-blur-sm rounded-xl border border-yellow-400/30 hover:border-yellow-400/60 shadow-lg hover:shadow-yellow-500/25 p-6 transform transition-all duration-300 hover:shadow-2xl">
+              <img className="w-16 mx-auto" src={JavaScript} alt="" />
+              <h2 className="text-2xl max-sm:text-xl text-white font-bold">Javascript</h2>
             </div>
             <div className="w-56 max-sm:w-40 hover:scale-110 text-center space-y-3 bg-gradient-to-br from-green-600/20 to-green-800/20 backdrop-blur-sm rounded-xl border border-green-600/30 hover:border-green-600/60 shadow-lg hover:shadow-green-600/25 p-6 transform transition-all duration-300 hover:shadow-2xl">
               <img className="w-16 mx-auto" src={img9} alt="" />
               <h2 className="text-2xl max-sm:text-xl text-white font-bold">Node.js</h2>
             </div>
+             <div className="w-56 max-sm:w-40 hover:scale-110 text-center space-y-3 bg-gradient-to-br from-slate-500/20 to-gray-500/20 backdrop-blur-sm rounded-xl border border-slate-400/30 hover:border-slate-400/60 shadow-lg hover:shadow-slate-500/25 p-6 transform transition-all duration-300 hover:shadow-2xl">
+              <img className="w-16 mx-auto" src={express} alt="" />
+              <h2 className="text-2xl max-sm:text-xl text-white font-bold">Express.js</h2>
+            </div>
+            <div className="w-56 max-sm:w-40 hover:scale-110 text-center space-y-3 bg-gradient-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-sm rounded-xl border border-green-400/30 hover:border-green-400/60 shadow-lg hover:shadow-green-500/25 p-6 transform transition-all duration-300 hover:shadow-2xl">
+              <img className="w-16 mx-auto" src={postgresql} alt="" />
+              <h2 className="text-2xl max-sm:text-xl text-white font-bold">Postgresql</h2>
+            </div>
+            <div className="w-56 max-sm:w-40 hover:scale-110 text-center space-y-3 bg-gradient-to-br from-green-500/20 to-emerald-500/20 backdrop-blur-sm rounded-xl border border-green-400/30 hover:border-green-400/60 shadow-lg hover:shadow-green-500/25 p-6 transform transition-all duration-300 hover:shadow-2xl">
+              <img className="w-16 mx-auto" src={mongodbb} alt="" />
+              <h2 className="text-2xl max-sm:text-xl text-white font-bold">MongoDB</h2>
+            </div>
+            
+            <div className="w-56 max-sm:w-40 hover:scale-110 text-center space-y-3 bg-gradient-to-br from-teal-500/20 to-cyan-500/20 backdrop-blur-sm rounded-xl border border-teal-400/30 hover:border-teal-400/60 shadow-lg hover:shadow-teal-500/25 p-6 transform transition-all duration-300 hover:shadow-2xl">
+              <img className="w-16 mx-auto" src={prismaHD} alt="" />
+              <h2 className="text-2xl max-sm:text-xl text-white font-bold">Prisma ORM</h2>
+            </div>
+            <div className="w-56 max-sm:w-40 hover:scale-110 text-center space-y-3 bg-gradient-to-br from-gray-700/20 to-black/20 backdrop-blur-sm rounded-xl border border-gray-600/30 hover:border-gray-600/60 shadow-lg hover:shadow-gray-600/25 p-6 transform transition-all duration-300 hover:shadow-2xl">
+              <img className="w-16 mx-auto" src={shadcn} alt="" />
+              <h2 className="text-2xl max-sm:text-xl text-white font-bold">Shadcn/UI</h2>
+            </div>
             <div className="w-56 max-sm:w-40 hover:scale-110 text-center space-y-3 bg-gradient-to-br from-cyan-500/20 to-blue-500/20 backdrop-blur-sm rounded-xl border border-cyan-400/30 hover:border-cyan-400/60 shadow-lg hover:shadow-cyan-500/25 p-6 transform transition-all duration-300 hover:shadow-2xl">
-              <img className="w-16 mx-auto" src={img4} alt="" />
+              <img className="w-16 mx-auto" src={tailwindcss} alt="" />
               <h2 className="text-2xl max-sm:text-xl text-white font-bold">Tailwind CSS</h2>
             </div>
             <div className="w-56 max-sm:w-40 hover:scale-110 text-center space-y-3 bg-gradient-to-br from-yellow-400/20 to-yellow-600/20 backdrop-blur-sm rounded-xl border border-yellow-400/30 hover:border-yellow-400/60 shadow-lg hover:shadow-yellow-500/25 p-6 transform transition-all duration-300 hover:shadow-2xl">
-              <img className="w-16 mx-auto" src={img3} alt="" />
+              <img className="w-16 mx-auto" src={es6s} alt="" />
               <h2 className="text-2xl max-sm:text-xl text-white font-bold">ES6</h2>
             </div>
             <div className="w-56 max-sm:w-40 hover:scale-110 text-center space-y-3 bg-gradient-to-br from-red-500/20 to-pink-500/20 backdrop-blur-sm rounded-xl border border-red-400/30 hover:border-red-400/60 shadow-lg hover:shadow-red-500/25 p-6 transform transition-all duration-300 hover:shadow-2xl">
-              <img className="w-16 mx-auto" src={img1} alt="" />
+              <img className="w-16 mx-auto" src={html5} alt="" />
               <h2 className="text-2xl max-sm:text-xl text-white font-bold">HTML5</h2>
             </div>
             <div className="w-56 max-sm:w-40 hover:scale-110 text-center space-y-3 bg-gradient-to-br from-blue-400/20 to-indigo-500/20 backdrop-blur-sm rounded-xl border border-blue-400/30 hover:border-blue-400/60 shadow-lg hover:shadow-blue-500/25 p-6 transform transition-all duration-300 hover:shadow-2xl">
-              <img className="w-16 mx-auto" src={img2} alt="" />
+              <img className="w-16 mx-auto" src={css} alt="" />
               <h2 className="text-2xl max-sm:text-xl text-white font-bold">CSS3</h2>
             </div>
-            <div className="w-56 max-sm:w-40 hover:scale-110 text-center space-y-3 bg-gradient-to-br from-slate-500/20 to-gray-500/20 backdrop-blur-sm rounded-xl border border-slate-400/30 hover:border-slate-400/60 shadow-lg hover:shadow-slate-500/25 p-6 transform transition-all duration-300 hover:shadow-2xl">
-              <img className="w-16 mx-auto" src={img10} alt="" />
-              <h2 className="text-2xl max-sm:text-xl text-white font-bold">Express.js</h2>
-            </div>
+           
             <div className="w-56 max-sm:w-40 hover:scale-110 text-center space-y-3 bg-gradient-to-br from-yellow-500/20 to-orange-500/20 backdrop-blur-sm rounded-xl border border-yellow-500/30 hover:border-yellow-500/60 shadow-lg hover:shadow-yellow-500/25 p-6 transform transition-all duration-300 hover:shadow-2xl">
-              <img className="w-16 mx-auto" src={img7} alt="" />
+              <img className="w-16 mx-auto" src={firebase} alt="" />
               <h2 className="text-2xl max-sm:text-xl text-white font-bold">FireBase</h2>
             </div>
             <div className="w-56 max-sm:w-40 hover:scale-110 text-center space-y-3 bg-gradient-to-br from-orange-500/20 to-red-500/20 backdrop-blur-sm rounded-xl border border-orange-500/30 hover:border-orange-500/60 shadow-lg hover:shadow-orange-500/25 p-6 transform transition-all duration-300 hover:shadow-2xl">
@@ -150,7 +173,7 @@ const About = () => {
               <h2 className="text-2xl max-sm:text-xl text-white font-bold">Daisy UI</h2>
             </div>
             <div className="w-56 max-sm:w-40 hover:scale-110 text-center space-y-3 bg-gradient-to-br from-blue-700/20 to-indigo-600/20 backdrop-blur-sm rounded-xl border border-blue-700/30 hover:border-blue-700/60 shadow-lg hover:shadow-blue-700/25 p-6 transform transition-all duration-300 hover:shadow-2xl">
-              <img className="w-20 mx-auto" src={img11} alt="" />
+              <img className="w-20 mx-auto" src={jwt} alt="" />
               <h2 className="text-2xl max-sm:text-xl text-white font-bold">JWT Token</h2>
             </div>
             <div className="w-56 max-sm:w-40 hover:scale-110 text-center space-y-3 bg-gradient-to-br from-gray-700/20 to-black/20 backdrop-blur-sm rounded-xl border border-gray-600/30 hover:border-gray-600/60 shadow-lg hover:shadow-gray-600/25 p-6 transform transition-all duration-300 hover:shadow-2xl">

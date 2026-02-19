@@ -21,7 +21,7 @@ const HomeBanner = () => {
                 
                 <Typewriter
                   speed={100}
-                  text={[" Front-end Developer "," MERN Stack Developer ", " Web Developer " , " React Developer "]}
+                  text={[" Front-end Developer "," Backend Developer ", " MERN Stack Developer ", " Web Developer " , " React Developer ", " Next js Developer "]}
                   loop={true}
                 ></Typewriter>
               </div>

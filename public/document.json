@@ -1,9 +1,20 @@
 [
   {
+    "id":7,
+    "images": "https://i.ibb.co.com/gFPbf5bZ/e-medicare-client-vercel-app-1.png",
+    "projectTitle": "𝐄-𝐌𝐞𝐝𝐢𝐂𝐚𝐫𝐞 ",
+    "projectsType": "𝐌𝐞𝐝𝐢𝐜𝐢𝐧𝐞 𝐒𝐭𝐨𝐫𝐞",
+    "technology": "Next Js, TypeScript, Node.js, Express Js, PostgreSQL, Prisma ORM, shadcn/ui, Tailwind CSS, zod",
+    "shortDescription": "E-MediCare, a full-stack e-commerce web application for purchasing over-the-counter (OTC) medicines. The platform supports three roles — Customer, Seller, and Admin — with secure role-based authentication. Customers can browse medicines, add items to cart, and place orders, while Sellers manage inventory and orders. Admins oversee users, medicines, and overall platform operations.",
+    "liveLink": "https://e-medicare-client.vercel.app/",
+    "githubClient": "https://github.com/joykbiswas/e-medicare-client",
+    "githubServer": "https://github.com/joykbiswas/e-medicare-server"
+  },
+  {
     "id":6,
     "images": "https://i.ibb.co.com/kgWGVXHP/cupcake-two-vercel-app.jpg",
-    "projectTitle": "ResuMegnet",
-    "projectsType": "Resume, cv make",
+    "projectTitle": "Cupcake",
+    "projectsType": "Online cake shop",
     "technology": "HTML, CSS, JAVASCRIPT, REACT JS, Mongodb, Express.js, Stripe, Cors, AXIOS, JWT",
     "shortDescription": "Welcome to our online cake shop! Customers can explore a wide variety of delicious cakes, place orders easily, and pay securely using Stripe. The platform supports both user and admin logins, allowing customers to manage their orders effortlessly, while admins can manage inventory, track sales, and update cake listings in real time. Enjoy a seamless and delightful cake-buying experience from the comfort of your home!",
     "liveLink": "https://cupcake-two.vercel.app/",
